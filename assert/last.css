@@ -9,7 +9,7 @@
 
 }
 body{
-    background: black url('/assert/images/degree.jpg') no-repeat;
+    background: black url('./images/degree.jpg') no-repeat;
     background-size: cover;
     background-position: center;
    
