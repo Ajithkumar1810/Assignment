@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+
+}
+body{
+    background: black url('/assert/images/degree.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    height: 100vh;
+}
+h2{
+    color: #f40e0a;
+    margin-left: 10px;
+    font-size: 50px;
+
+}
+.image{
+    display:flex;
+}
+img{
+  
+  padding: 5px;
+  width: 500px;;
+}
+button{
+    background-color: #f40e0a; /* Green */
+    border: 15px dotted #0c0b0b;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+   display: inline-block; 
+   cursor: pointer;
+  font-size: 16px;
+  margin-top: 350px;
+  margin-left: 0px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Speed Test Game</title>
+    <link rel="icon" href="./images/icon.jpg">
+    <link rel="stylesheet" href="./practice.css">
+</head>
+<body >
+<header>
+   
+    <div class="title">
+        <h1>Speed Test</h1>
+    </div>
+   
+
+</header>
+ <!-- creating the button for home page to start-->
+
+
+<main>
+   
+    <div class="name1">
+        <h1>Name:</h1>
+            <h1 id="name"></h1>
+    </div>
+    
+    <div class="Process_done">
+        <progress id="progessvalue" max='0' value="0"></progress>
+    </div>
+    <!-- Display Question -->
+    <section class="set_of_instruction ">
+        <div class="titel2">
+            <h1> Question <span class="currentq_no">1</span>/<span class="totalq_no">10</span> </h1>
+        </div>
+        <br />
+        
+        <br />
+        <div class="questionsheet">
+            <div class="question">
+                <h4> <span class="value1"></span> X <span class="value2"></span> </h4>
+            </div>
+            <br />
+            <div class="input">
+                <form>
+                    <input type="number" id="answer"  placeholder="Answer here" autofocus required>
+                </form>
+            </div>
+            <button type="button" class="check">Validate My answer</button>
+            <button type="button" class="exit" >Exit</button>
+            
+
+        </div>
+        <br />
+
+        <!-- Display Result -->
+        <div>
+            <h1 class="marks"></h1>
+            <br />
+            <h1>Toatl Points scored: <span class="points">0</span>/<span class="totalq_no"></span> </h1>
+        </div>
+    </section>
+    <div class="image">
+        <marquee direction="right" ><img src="./images/mario.png" alt="lets go...!!!!!!!!!!!!11" loading="lazy"></marquee>
+        
+    </div>
+</main>
+
+
+
+</body>
+<script defer src="practice.js"></script>
+<script defer src="calculation.js"></script>
+
+</html>
