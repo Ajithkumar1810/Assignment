@@ -45,8 +45,16 @@ RenderNumber()
 
 function dots()
 {
-    alert(`You Scored ${points}/${totalquestion} \n Lets play again`)
-    window.location.replace("calculation.html")
+    alert(`You Scored ${points}/${totalquestion} \n Points`)
+    // if(c=="yes"||"YES")
+    // {
+    //     // window.location.replace("practice.html")
+    // }
+    // elif(c=="no"||c=="NO")
+    // {
+    // window.location.replace("calculation.html")
+    // }
+    
     
 }
 answerDOM.onkeypress = (e) => {
