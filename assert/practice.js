@@ -28,7 +28,7 @@ totalquestionoDOM.forEach(ele => ele.innerHTML = totalquestion)
 
     progessDOM.max = totalquestion-1
 
-
+var g=0
 
 
 const RandomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min
@@ -54,6 +54,8 @@ answerDOM.onkeypress = (e) => {
 
         if (progessDOM.value === (totalquestion - 1))
             {
+                g=1
+                checkbuttondom.click()
                 dots()
                
                 
@@ -95,10 +97,11 @@ const checkanswer = () => {
         
 
 
-        
+        if(g!=1)
+        {
         
             RenderNumber()
-        
+        }
            
         
         return
